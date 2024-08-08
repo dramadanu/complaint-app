@@ -1,8 +1,28 @@
+import { Routes, Route } from 'react-router-dom';
 
-import './App.css'
+import Navbar from './components/NavbarComponent';
+import Footer from './components/FooterComponent';
 
+import HomePage from './pages/HomePage';
+import LayananPage from './pages/LayananPage';
+import ContactUsPage from './pages/ContactUsPage';
+import SignInPage from './pages/SignInPage';
+import CreateAccountPage from './pages/CreateAccountPage';
+  
 function App() {
-  return <h1>Hello there!</h1>
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/layanan" element={<LayananPage />} />
+        <Route path="/contact" element={<ContactUsPage />} />
+        <Route path="/signIn" element={<SignInPage />} />
+        <Route path="/create" element={<CreateAccountPage />} />
+      </Routes>
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;

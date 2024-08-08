@@ -1,0 +1,486 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+    padding: 0 40px;
+}
+
+nav .logo img {
+    width: 120px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    /* width: 40%; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #001a41;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 20px;
+    align-items: center;
+}
+
+nav ul li button {
+    background-color: #ED0226;
+    color: white;
+    min-width: 150px;
+    height: 50px;
+    border-radius: 1.5rem;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: #ED0226;
+}
+
+
+/* Footer */
+footer {
+    background-color: #001a41;
+    color: #fff;
+    font-size: small;
+}
+
+.footer-nav ul li a {
+    margin: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer ul li a:hover {
+    color: #ED0226;
+}
+
+
+
+
+/* Hamburger */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #001a41;
+    border-radius: 3px;
+}
+
+
+/* HOME PAAGE */
+.hero {
+    display: flex;
+    width: 100%;
+    height: 370px;
+    border-bottom-left-radius: 8rem;
+    background: linear-gradient(79.31deg,#ed0226 58.3%,#fda22b 101.75%);
+}
+
+.hero .image-container {
+    width: 50%;
+}
+
+.hero .image-container img {
+    display: flex;
+    width: 570px;
+    height: 432px;
+    padding-top: 20px;
+    border-radius: 8rem;    
+}
+
+.hero .title-container img {
+    width: 360px;
+}
+
+.hero .title-container p {
+    font-size: 1.4rem;
+    color: white;
+}
+
+.hero .title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 40px;
+}
+
+.hero .title-container .btn-color-1 {
+    background-color: #fff;
+    color: #ED0226;
+    min-width: 150px;
+    height: 50px;
+    border-radius: 1.5rem;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.hero .title-container .btn-color-2 {
+    background-color: #ED0226;
+    color: #fff;
+    border: #fff 0.15rem solid;
+    min-width: 150px;
+    height: 50px;
+    border-radius: 1.5rem;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* SECTION INSTRUCTOR */
+.instruction {
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+.instruction h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.section-container {
+    display: flex;
+}
+
+.section-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 40px;
+}
+
+.instruction .section-container .section-picture img {
+    width: 500px;
+    border-radius: 5rem;
+    margin-inline-start: auto;
+}
+
+.section-text {
+    width: 500px;
+    margin-left: 40px;
+}
+
+.list {
+    list-style: none;
+    color: #001a41;
+}
+
+.section-text h2 {
+    margin-bottom: 20px;
+}
+
+.list li p {
+    margin-top: 10px;
+    font-size: large;
+}
+
+
+/* NETWORK TEST */
+.network-test {
+}
+
+.network-test h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.section-container-test {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #001a41;
+}
+
+.section-container-map {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 100px; */
+}
+
+.section-container-map iframe {
+    border-radius: 2rem;
+}
+
+.section-container-test h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.test-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    gap: 80px;
+}
+
+.section-result {
+    width: 600px;
+    height: 500px;
+}
+
+.section-result h2 {
+    margin-bottom: 0;
+}
+
+.section-result .status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #08CE04;
+    color: #fff;
+    border: #fff 0.15rem solid;
+    min-width: 150px;
+    height: 50px;
+    border-radius: 1.5rem;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.test-result {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    background-color: #dfdfdf;
+    border-radius: 2rem;
+}
+
+.test-result li {
+    list-style: none;
+    margin: 20px 0 20px 40px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.test-result .signal {
+    margin-left: 80px;
+    color: #ED0226;
+}
+
+.section-result .button {
+    display: flex;
+    justify-content: center;
+}
+
+.network-test .button button {
+    background-color: #ED0226;
+    color: #fff;
+    border: #fff 0.15rem solid;
+    min-width: 150px;
+    height: 50px;
+    border-radius: 1.5rem;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.button-check {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 60px;
+}
+
+.btn-button-check button {
+    background-color: #ED0226;
+    color: #fff;
+    border: #fff 0.15rem solid;
+    width: 320px;
+    height: 60px;
+    border-radius: 2.5rem;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 20px;
+}
+
+
+/* HALAMAN LOGIN */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+
+.login-container img {
+    width: 400px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    box-shadow: 1px 3px 2px 3px #aaaaaa;
+    margin: 40px 0 40px 0;
+    border-radius: 1rem;
+}
+
+.form h3 {
+    margin: 20px 0 20px 0;
+}
+
+.form .form-group {
+    margin-bottom: 20px;
+}
+
+.form .form-group a {
+    color: rgb(80, 110, 247);
+    cursor: pointer;
+}
+
+.login-container .form .form-group-btn button {
+    background-color: #ED0226;
+    color: #fff;
+    border: #fff 0.15rem solid;
+    width: 150px;
+    height: 40px;
+    border-radius: 1.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-container .form .form-group button {
+    background-color: #ED0226;
+    color: #fff;
+    border: #fff 0.15rem solid;
+    width: 240px;
+    height: 40px;
+    border-radius: 1.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-container .form .form-group input {
+    width: 200px;
+    height: 10px;
+    border-radius: 1.5rem;
+    padding: 10px;
+}
+
+
+/* CREATE ACCOUNT */
+.form-create .form-group {
+    margin-bottom: 25px;
+}
+
+.form-create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    box-shadow: 1px 3px 2px 3px #aaaaaa;
+    margin: 40px 0 40px 0;
+    border-radius: 1rem;
+}
+
+.login-container .form-create .form-group-btn button {
+    background-color: #ED0226;
+    color: #fff;
+    border: #fff 0.15rem solid;
+    width: 230px;
+    height: 40px;
+    border-radius: 1.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-container .form-create .form-group input {
+    width: 200px;
+    height: 10px;
+    border-radius: 1.5rem;
+    padding: 10px;
+}
+
+.check-policy .form-group-policy {
+    display: flex;
+    margin-left: 2px;
+    margin-top: 15px;
+    color: rgb(80, 110, 247);
+}
+
+.check-policy .form-group-policy input, label {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form-create h3 {
+    margin: 0 0 20px 0;
+}
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 758px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        background-color: white;
+        width: 100%;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+}
