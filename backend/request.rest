@@ -1,0 +1,32 @@
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjcsIm5hbWUiOiJOYW1hIFNheWEiLCJlbWFpbCI6InNoaXRAZ21haWwuY29tIiwiaWF0IjoxNzIzNDY2NDcwLCJleHAiOjE3MjM0NjY0ODB9.T70XIGOT8EEagkb4n0A5Xf9Pd-gqtJ7OczzhJKG5Zu4
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Nama Saya",
+    "email": "email@gmail.com",
+    "password": "email",
+    "confPassword": "email"
+}
+
+
+###
+POST http://localhost:5000/signIn
+Content-Type: application/json
+
+{
+    "email": "shit@gmail.com",
+    "password": "shit"
+}
+
+
+###
+GET http://localhost:5000/token
+
+
+###
+DELETE http://localhost:5000/logout
