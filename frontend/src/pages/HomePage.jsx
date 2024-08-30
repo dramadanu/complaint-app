@@ -85,9 +85,10 @@ const HomePage = () => {
             </section>
 
             <section className="button-check">
-            <div className="btn-button-check">
-                <button>Buat laporan keluhan</button>
-            </div></section>
+              <div className="btn-button-check">
+                  <button>Buat laporan keluhan</button>
+              </div>
+            </section>
         </>
     )
 }

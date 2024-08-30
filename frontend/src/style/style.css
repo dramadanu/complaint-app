@@ -135,6 +135,21 @@ footer ul li a:hover {
     gap: 40px;
 }
 
+.hero-2 .title-container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 40px;
+}
+
+.hero-2 .title-container-2 h1 {
+    font-size: 2.5em;
+    color: #ffff;
+
+}
+
 .hero .title-container .btn-color-1 {
     background-color: #fff;
     color: #ED0226;
@@ -165,6 +180,11 @@ footer ul li a:hover {
 .instruction {
     padding-top: 200px;
     padding-bottom: 150px;
+}
+
+.layanan-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .instruction h1 {
@@ -458,6 +478,70 @@ footer ul li a:hover {
 .form-create h3 {
     margin: 0 0 20px 0;
 }
+
+
+
+/* =========================== LAYANAN PAGE ============================== */
+.hero-2 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 8rem;
+    background: linear-gradient(76.81deg, #b90024 15.71%, #ff0025 68.97%, #fd195e 94.61%);
+}
+
+.section-picture-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 40px;
+}
+
+.layanan-section .section-container .section-picture-2 img {
+    width: 400px;
+    margin-inline-start: auto;
+}
+
+.section-text-2 {
+    width: 500px;
+    margin-left: 40px;
+    align-content: center;
+}
+
+.section-text-2 h1 {
+    font-size: 40px;
+    color: #ED0226;
+}
+
+.section-text-2 p {
+    font-size: 20px;
+}
+
+.section-text-2 .button button {
+    background-color: #ED0226;
+    color: #fff;
+    border: #fff 0.15rem solid;
+    width: 200px;
+    height: 50px;
+    border-radius: 1.5rem;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.section-text-2 h1,
+.section-text-2 p,
+.section-text-2 .button {
+    margin-bottom: 25px;
+}
+
+.section-text-2 .button {
+    margin-bottom: 0;
+}
+
+
+
 
 
 
