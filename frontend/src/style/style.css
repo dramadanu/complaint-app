@@ -145,7 +145,7 @@ footer ul li a:hover {
 }
 
 .hero-2 .title-container-2 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     color: #ffff;
 
 }
@@ -233,9 +233,6 @@ footer ul li a:hover {
 
 
 /* NETWORK TEST */
-.network-test {
-}
-
 .network-test h1 {
     text-align: center;
     padding-bottom: 50px;
@@ -499,33 +496,33 @@ footer ul li a:hover {
 }
 
 .layanan-section .section-container .section-picture-2 img {
-    width: 400px;
+    width: 600px;
     margin-inline-start: auto;
 }
 
 .section-text-2 {
-    width: 500px;
+    width: 600px;
     margin-left: 40px;
     align-content: center;
 }
 
 .section-text-2 h1 {
-    font-size: 40px;
+    font-size: 50px;
     color: #ED0226;
 }
 
 .section-text-2 p {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .section-text-2 .button button {
     background-color: #ED0226;
     color: #fff;
     border: #fff 0.15rem solid;
-    width: 200px;
-    height: 50px;
-    border-radius: 1.5rem;
-    font-size: 16px;
+    width: 300px;
+    height: 80px;
+    border-radius: 2.5rem;
+    font-size: 24px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -540,7 +537,95 @@ footer ul li a:hover {
     margin-bottom: 0;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
 
+.content .content-image {
+    cursor: pointer;
+}
+
+.content .content-image img {
+    max-width: 1200px;
+}
+
+.btn-button-check-2 button {
+    background-color: #fff;
+    color: #ED0226;
+    border: #ED0226 0.15rem solid;
+    width: 320px;
+    height: 60px;
+    border-radius: 2.5rem;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 20px;
+}
+
+
+/* =========================== LAPORAN PAGE ============================== */
+.layanan-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.complaint-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1200px;
+    height: 480px;
+    box-shadow: 1px 3px 2px 3px #aaaaaa;
+    margin: 80px 0 80px 0;
+    border-radius: 1rem;
+}
+
+.complaint-form .group-form-1 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 20px;
+}
+
+.complaint-form .group-form-1 input {
+    width: 300px;
+    height: 15px;
+    border-radius: 1.5rem;
+    padding: 10px;
+}
+
+.complaint-form .isi-laporan textarea {
+    width: 1000px;
+    height: 300px;
+    border-radius: 1.5rem;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-page {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-page .footer-1 img {
+    width: 98vw;
+    height: auto;
+}
+
+
+/* =========================== BANTUAN PAGE ============================== */
+.bantuan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0 80px 0;
+    gap: 80px;
+}
 
 
 

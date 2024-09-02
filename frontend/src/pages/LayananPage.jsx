@@ -1,4 +1,6 @@
 import sectionImage from '../assets/model-image-2.png'
+import contentImage1 from '../assets/content-1.png'
+import contentImage2 from '../assets/content-2.png'
 
 const LayananPage = () => {
   return (
@@ -26,6 +28,21 @@ const LayananPage = () => {
                   </div>
                </div>
           </div>
+      </section>
+
+      <section className='content'>
+        <div className="content-image">
+          <img src={contentImage1} alt="content-1" />
+        </div>
+        <div className="content-image">
+          <img src={contentImage2} alt="content-2" />
+        </div>
+      </section>
+
+      <section className="button-check">
+        <div className="btn-button-check-2">
+          <button>Selengkapnya</button>
+        </div>
       </section>
     </>
   )

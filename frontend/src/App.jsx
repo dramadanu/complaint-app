@@ -5,7 +5,8 @@ import Footer from './components/FooterComponent';
 
 import HomePage from './pages/HomePage';
 import LayananPage from './pages/LayananPage';
-import ContactUsPage from './pages/ContactUsPage';
+import LaporanPage from './pages/LaporanPage';
+import BantuanPage from './pages/BantuanPage';
 import SignInPage from './pages/SignInPage';
 import CreateAccountPage from './pages/CreateAccountPage';
   
@@ -16,7 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/layanan" element={<LayananPage />} />
-        <Route path="/contact" element={<ContactUsPage />} />
+        <Route path="/contact" element={<LaporanPage />} />
+        <Route path="/bantuan" element={<BantuanPage />} />
         <Route path="/signIn" element={<SignInPage />} />
         <Route path="/create" element={<CreateAccountPage />} />
       </Routes>
